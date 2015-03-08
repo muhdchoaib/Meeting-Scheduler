@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MeetingSchedulerActivity!</string>
+    <string name="app_name">MeetingScheduler</string>
+    <string name="titleMsgDescription">Message Description</string>
+    <string name="textDescription">Description</string>
+    <string name="btnSave">Save</string>
+    <string name="btnSelectSlotsText"> Confirm </string>
+    <string name="btnCancelSlotsSelectionText"> Cancel </string>
+    <string name="btnNext"> Next </string>
+    <string name="btnCancelText"> Cancel </string>
+    <string name="btnOKOnViewGroupUsersText"> Confirm </string>
+    <string name="btnCancelOnViewGroupUsersText"> Cancel </string>
+    <string name="titleSelectGroup"> Select Recipient Group </string>
+    <string name="titleViewGroupUsers"> View Group Users </string>
+    <string name="titleCalendar"> Calendar </string>
+    <string name="titleOutbox"> Sent items </string>
+    <string name="btnBackText"> Back </string>
+    <string name="changeTime">Change the Time</string>
+    <string name="titleSelectDate"> Meeting Date</string>
+    <string name="titleMeetingTime">Meeting Time</string>
+    <string name="titleFromTime"> From </string>
+    <string name="titleToTime"> To </string>
+    <string name="hintSelectDate"> Select Date </string>
+    <string name="hintFromTime"> From </string>
+    <string name="hintToTime"> To </string>
+    <string name="btnOk"> Ok </string>
+    <string name="btnAdd"> Add Time Slot </string>
+    <string name="tvTitle"> Type Here: </string>
+    <string name="titleMeeting"> Subject </string>
+    <string name="titleDescription"> Description </string>
+    <string name="titleGroup"> Recipient Group </string>
+    <string name="spinnerPrompt"> Choose a group </string>
+    <string name="titleLocation"> Location: </string>
+    <string name="btnDelete"> Delete </string>
+
+    <string name="btnInitiateMeeting"> Initiate Meeting</string>
+    <string name="btnViewPendingMeetingRequests"> Pending Meetings </string>
+    <string name="btnViewConfirmedMeetings"> Confm. Meetings </string>
+    <string name="btnPrepareMsg"> Prepare Request </string>
+    <string name="btnSendMsg"> Send Request</string>
+    
+</resources>

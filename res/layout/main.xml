@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+            <LinearLayout
+    
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <Button
+           android:id="@+id/btnSelectSlots"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/btnSelectSlotsText" 
+           android:onClick="onClick"/>
+
+       <Button
+           android:id="@+id/btnCancelSlotsSelection"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/btnCancelSlotsSelectionText" 
+           android:onClick="onClick"/>
+        
+    </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id = "@+id/layout_timings"
+            android:layout_width="fill_parent"
+            android:background="@drawable/blue1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:id="@+id/title_SelectDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titleSelectDate" />
+
+            <EditText
+                android:id="@+id/editText_Date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:hint="@string/hintSelectDate" />
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/select_FromTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleFromTime" />
+
+                <EditText
+                    android:id="@+id/editText_FromTime"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/hintFromTime" />
+
+                <TextView
+                    android:id="@+id/select_ToTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleToTime" />
+
+                <EditText
+                    android:id="@+id/editText_ToTime"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/hintToTime" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal" >
+
+                <Button android:id = "@+id/button_Add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnAdd" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:gravity="fill_horizontal" />
+
+        <TextView
+            android:id="@+id/titleLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleLocation" />
+
+        <EditText
+            android:id="@+id/editText_Location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="" />
+
+        <TextView
+            android:id="@+id/titleSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleMeeting" />
+
+        <EditText
+            android:id="@+id/editText_Subject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="" />
+
+        <TextView
+            android:id="@+id/titleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleDescription" />
+
+        <EditText
+            android:id="@+id/editText_Description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:hint=""
+            android:lines="3"
+            android:maxLines="10"
+            android:minLines="3"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+
+
+    </LinearLayout>
+
+</ScrollView>
